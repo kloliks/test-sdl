@@ -6,8 +6,7 @@
 
 #include <string.h>
 
-class Timer
-{
+class Timer {
 public:
     Timer() : beg_(clock_::now()) {}
     void reset() { beg_ = clock_::now(); }

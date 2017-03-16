@@ -2,11 +2,11 @@
 
 #include <string.h>
 
-struct Indentity : Matrix {
+struct Identity : Matrix {
   float matrix[SIZE] = { 1, 0, 0, 0, 1, 0, 0, 0, 1 };
 };
 
 Matrix& Matrix::loadIdentity() {
-  *this = Indentity();
+  *this = Identity();
   return *this;
 }

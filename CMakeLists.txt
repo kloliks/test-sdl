@@ -1,6 +1,7 @@
 cmake_minimum_required (VERSION 3.1.0)
 project( test-sdl )
 
+set(CMAKE_CXX_FLAGS "-O2 -Wall")
 set(CMAKE_CXX_STANDARD 14)
 
 find_package(OpenGL REQUIRED)
