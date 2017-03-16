@@ -1,4 +1,4 @@
-#include "Matrix.hpp"
+#include "AnalyticGeometry/Matrix.hpp"
 
 #include <string.h>
 
@@ -10,3 +10,5 @@ Matrix& Matrix::loadIdentity() {
   *this = Identity();
   return *this;
 }
+
+// vim: path+=include

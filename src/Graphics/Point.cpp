@@ -1,5 +1,5 @@
-#include "Point.hpp"
-#include "Matrix.hpp"
+#include "Graphics/Point.hpp"
+#include "AnalyticGeometry/Matrix.hpp"
 
 #ifdef _DEBUG
 #include "math.h"
@@ -18,3 +18,5 @@ Point& Point::multMatrix( const Matrix& matrix ){
 
   return *this;
 }
+
+// vim: path+=include

@@ -1,5 +1,5 @@
-#include "Matrix.hpp"
-#include "Point.hpp"
+#include "AnalyticGeometry/Matrix.hpp"
+#include "Graphics/Point.hpp"
 
 #include <iostream>
 #include <chrono>
@@ -42,3 +42,5 @@ int main() {
 
   return 0;
 }
+
+// vim: path+=include

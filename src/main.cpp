@@ -10,8 +10,8 @@
 #include <SDL.h>
 #include <GL/gl.h>
 
-#include "Matrix.hpp"
-#include "Point.hpp"
+#include "AnalyticGeometry/Matrix.hpp"
+#include "Graphics/Point.hpp"
 
 using std::cout;
 using std::endl;
@@ -442,3 +442,5 @@ int main() {
   std::cout << "Done" << std::endl;
   return 0;
 }
+
+// vim: path+=include
