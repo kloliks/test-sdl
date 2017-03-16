@@ -18,5 +18,3 @@ Point& Point::multMatrix( const Matrix& matrix ){
 
   return *this;
 }
-
-// vim: path+=include

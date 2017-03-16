@@ -10,5 +10,3 @@ Matrix& Matrix::loadIdentity() {
   *this = Identity();
   return *this;
 }
-
-// vim: path+=include

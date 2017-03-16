@@ -11,6 +11,7 @@
 #include <GL/gl.h>
 
 #include "AnalyticGeometry/Matrix.hpp"
+#include "Graphics/Color.hpp"
 #include "Graphics/Point.hpp"
 
 using std::cout;
@@ -24,20 +25,6 @@ const int screen_width  = 1024;
 const int screen_height = 1024;
 
 
-struct Color {
-  enum { COLOR_VECTOR_SIZE = 4 };
-  float color[COLOR_VECTOR_SIZE] = { .0f, .0f, .0f, .0f };
-
-  void setColor(float r, float g, float b, float a) {
-    color[0] = r;
-    color[1] = g;
-    color[2] = b;
-    color[3] = a;
-  }
-  void setColor(float r, float g, float b) {
-    setColor(r, g, b, 1.0f);
-  }
-};
 struct Shape {
   Color fill;
   Color line;
@@ -442,5 +429,3 @@ int main() {
   std::cout << "Done" << std::endl;
   return 0;
 }
-
-// vim: path+=include
